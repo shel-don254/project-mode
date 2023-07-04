@@ -40,3 +40,6 @@ html::-webkit-scrollbar-thumb {
   background: #fff;
   border-radius: 5rem;
 }
+body {
+  background: var(--bg);
+}
