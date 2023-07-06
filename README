@@ -1,31 +1,32 @@
-SpaceX Historical Events API Integration
+## SpaceX Historical Events API Integration
 
-SpaceX Historical Events
+## SpaceX Historical Events
 
 This web application integrates with the SpaceX Historical Events API to provide users with a user-friendly interface to explore and discover SpaceX's historical milestones. Users can access a comprehensive database of SpaceX historical events, including launch details, mission objectives, and relevant articles or resources.
-Features
+
+## Features
 
     Fetch and display a list of SpaceX historical events from the API.
     Sort and filter events based on event date, title, or flight number.
     Search functionality to find events based on keywords or titles.
     Display detailed information about each event, including event date, details, and relevant links to articles or resources.
 
-Installation
+## Installation
 
     Clone the repository: git clone example https://github.com/shel-don254/project-mode
     Navigate to the project directory: cd your-repo
     Install dependencies: npm install
 
-Usage
+## Usage
 
     Run the application: npm start
     Open the web browser and visit: http://localhost:3000
 
-Technology Stack
+## Technology Stack
 
     Front-end: HTML, CSS, JavaScript
 
-API Reference
+## API Reference
 
 The SpaceX Historical Events API provides the data for this application. You can find more information about the API and its endpoints here.
 Roadmap
@@ -34,14 +35,19 @@ Roadmap
 
     Incorporate user authentication for personalized interactions.
 
-Contributing
+## Contributing
 
 Contributions are welcome! If you have any ideas, suggestions, or improvements, please open an issue or submit a pull request.
 
-License
+## live site
+
+you can access the site of the project on github pages: []
+
+## License
 
 This project is licensed under the MIT License.
-Acknowledgements
+
+## Acknowledgements
 
     SpaceX for providing the Historical Events API.
     Special thanks to the developers and contributors of the libraries and frameworks used in this project.
