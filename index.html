@@ -3,36 +3,28 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>COOL COCKTAIL RECIPES</title>
-
-    <!-- font awesome cdn link -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
-    />
-    <link rel="stylesheet" href="css/style.css" />
+    <title>SpaceX Historical Events</title>
+    <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
-    <header class="header">
-      <nav class="navbar">
-        <a href="#home">home</a>
-        <a href="#about">about</a>
-        <a href="#menu">menu</a>
-        <a href="#products">products</a>
-        <a href="#review">reviews</a>
-        <a href="#contact">contacts</a>
-        <a href="blogs">blogs</a>
-      </nav>
-
-      <div class="icons">
-        <div class="fas fa-search" id="search-btn"></div>
-        <div class="fas fa-shopping-cart" id="cart-btn"></div>
-        <div class="fas fa-bars" id="-btn"></div>
-      </div>
+    <header>
+      <h1>SpaceX Historical Events</h1>
     </header>
 
-    <!--header section ends-->
-    <!--custom js file link-->
-    <script src="js/script.js"></script>
+    <main>
+      <div id="filters">
+        <input type="text" id="searchInput" placeholder="Search events" />
+        <select id="sortSelect">
+          <option value="date">Sort by Date</option>
+          <option value="title">Sort by Title</option>
+          <option value="flightNumber">Sort by Flight Number</option>
+        </select>
+      </div>
+
+      <div id="eventList"></div>
+      <div id="eventDetails"></div>
+    </main>
+
+    <script src="app.js"></script>
   </body>
 </html>
